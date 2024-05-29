@@ -205,56 +205,63 @@ main .main-buttons button:hover{
 
     /* MAIN - FOOTER*/
 
- .main-footer{
+    .main-footer{
         position: fixed;
         bottom: 0px;
-        background-color: #f8f9fa;
-        /anchura/
-        width: 100%;
-        /Vertical - Horizontal/
+        background-color: rgb(181, 181, 194);
+        /*anchura*/
+        width: 340px;
+        /*Vertical - Horizontal*/
         margin: 0 auto;
-
-        /Añadi aqui el tamaño/
         font-size: 14px;
+        
     }
 
 .main-footer ul{
         display: inline-block;
     }
-.main-footer ul li {
+.main-footer ul li{
     display: inline;
 }
-
 .main-footer ul li a {
-   text-decoration: none;
-
-/Añadi el color del texto y un padding a  los lados para separar/
+text-decoration: none;
 color: #202124;
+background-color: #6163657e;
 padding: 0px 16px 0px 16px;
 }
 
-/Añadi propiedades al div de mexico/
 .pie-mexico{
-    padding-left: 50px;
-    height: 50px;
+    padding-left: 10px;
+    height: 380px;
     display: flex;
-    align-items: center;
-    border-bottom: 1px solid #3c4043;
+    align-items: flex-end;
+    border-bottom: 1px solid;
+    color: #4a4a4a;
+    background-color: #ffffffef;
 }
 
-/Para alinear con separacion/
+
 .Pie-pagina {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #dadce0a9;
 }
 
 .footer-right {
-    /background-color: #202124;/
-    padding-right: 50px; /Espaciado para separar del limite de pantalla/
+
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-right: 15px;
+
+    
 }
 
 .footer-left{
-    /background-color: aqua;/
-    padding-left:30px; /Espaciado para separar del limite de pantalla/
+    flex-wrap: wrap;
+    padding-left: 30px;
+    align-items: flex-end;
 }
+    
